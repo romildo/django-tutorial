@@ -9,7 +9,7 @@ pkgs.stdenv.mkDerivation {
   name = "my-django-env-0";
   buildInputs = [
     pythonPackages.python
-    pythonPackages.django_2_1
+    pythonPackages.django_2_2
     pkgs.jetbrains.pycharm-professional
     pkgs.emacs
     pkgs.vscode
